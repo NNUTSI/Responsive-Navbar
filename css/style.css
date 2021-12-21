@@ -1,0 +1,47 @@
+:root {
+    --color-1: #2f3240;
+}
+body {
+    font-family: '1942 report';
+    background-color: #e8eef3;
+}
+.container {
+    max-width: 1170px;
+    margin:auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-items-center {
+    align-items: center;
+}
+.justify-content-between{
+   justify-content: space-between;  
+}
+.header {
+    background-color:var(--color-1);
+    padding: 12px 0;
+    line-height: 1.5px;
+}
+.header .logo a{
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.header .nav ul li{
+    display: inline-block;
+    margin-left: 40px;
+}
+.header .nav ul li a{
+    display: block;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding: 10px 0;
+    transition: all 0.5s ease;
+}
+.header .nav ul li a:active,
+.header .nav ul li a:hover{
+    color: #f3a93d;
+}
